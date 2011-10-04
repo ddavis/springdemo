@@ -1,4 +1,4 @@
-package springapp.domain;
+package demoui.domain;
 
 import java.io.Serializable;
 

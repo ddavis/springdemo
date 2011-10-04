@@ -1,17 +1,12 @@
-package springapp.domain;
+package demoui.domain;
 
 import junit.framework.JUnit4TestAdapter;
 import org.junit.Assert;
 import org.junit.Test;
-import org.springframework.web.servlet.ModelAndView;
-
-import springapp.web.HelloController;
-
-import junit.framework.TestCase;
 
 
 /**
- * User: ddavis
+ *
  */
 public class UserTest {
 

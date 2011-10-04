@@ -148,12 +148,21 @@
           <artifactId>spring-test</artifactId>
           <version>${org.springframework.version}</version>
           <scope>test</scope>
+        <!--Since this is a web application running as a servlet we need to incorporate the dependency, however
+            we assume the container will supply the jar.
+            Defined with a 'test' scope for the integration testing framework and unit testing stubs-->
         </dependency>
           <dependency>
           <groupId>javax.servlet</groupId>
           <artifactId>servlet-api</artifactId>
           <version>2.4</version>
           <scope>provided</scope>
+      </dependency>
+      <!--One of the views for this demonstration is Velocity-->
+      <dependency>
+        <groupId>org.apache.velocity</groupId>
+        <artifactId>velocity</artifactId>
+        <version>1.7</version>
       </dependency>
     </dependencies>
 
